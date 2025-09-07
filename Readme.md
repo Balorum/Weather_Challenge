@@ -52,6 +52,7 @@ It prints the results in a formatted ASCII table, showing:
    WEATHER_API_KEY=your_api_key_here
    ```
 3. Ensure Java is available
+
    Check Java version:
    ```
    java -version
@@ -64,13 +65,14 @@ It prints the results in a formatted ASCII table, showing:
    export JAVA_HOME="Your/path/to/Java"
    ```
 4. Running the App
+
    Linux/MacOS
    ```
    ./gradlew build
    ./gradlew run
    ```
    Windows (cmd or PowerShell)
-      ```
-      gradlew build
-      gradlew run
-      ```
+   ```
+   gradlew build
+   gradlew run
+   ```
